@@ -1,0 +1,22 @@
+[
+  {"number":1,"symbol":"H","name":"Hydrogen","mass":1.008,"group":"Nonmetal","groupNumber":1,"period":1,"valence":1,"econfig":"1s1","protons":1,"neutrons":0},
+  {"number":2,"symbol":"He","name":"Helium","mass":4.0026,"group":"Noble Gas","groupNumber":18,"period":1,"valence":2,"econfig":"1s2","protons":2,"neutrons":2},
+  {"number":3,"symbol":"Li","name":"Lithium","mass":6.94,"group":"Alkali Metal","groupNumber":1,"period":2,"valence":1,"econfig":"[He] 2s1","protons":3,"neutrons":4},
+  {"number":4,"symbol":"Be","name":"Beryllium","mass":9.0122,"group":"Alkaline Earth","groupNumber":2,"period":2,"valence":2,"econfig":"[He] 2s2","protons":4,"neutrons":5},
+  {"number":5,"symbol":"B","name":"Boron","mass":10.81,"group":"Metalloid","groupNumber":13,"period":2,"valence":3,"econfig":"[He] 2s2 2p1","protons":5,"neutrons":6},
+  {"number":6,"symbol":"C","name":"Carbon","mass":12.011,"group":"Nonmetal","groupNumber":14,"period":2,"valence":4,"econfig":"[He] 2s2 2p2","protons":6,"neutrons":6},
+  {"number":7,"symbol":"N","name":"Nitrogen","mass":14.007,"group":"Nonmetal","groupNumber":15,"period":2,"valence":5,"econfig":"[He] 2s2 2p3","protons":7,"neutrons":7},
+  {"number":8,"symbol":"O","name":"Oxygen","mass":15.999,"group":"Nonmetal","groupNumber":16,"period":2,"valence":6,"econfig":"[He] 2s2 2p4","protons":8,"neutrons":8},
+  {"number":9,"symbol":"F","name":"Fluorine","mass":18.998,"group":"Halogen","groupNumber":17,"period":2,"valence":7,"econfig":"[He] 2s2 2p5","protons":9,"neutrons":10},
+  {"number":10,"symbol":"Ne","name":"Neon","mass":20.180,"group":"Noble Gas","groupNumber":18,"period":2,"valence":8,"econfig":"[He] 2s2 2p6","protons":10,"neutrons":10},
+  {"number":11,"symbol":"Na","name":"Sodium","mass":22.990,"group":"Alkali Metal","groupNumber":1,"period":3,"valence":1,"econfig":"[Ne] 3s1","protons":11,"neutrons":12},
+  {"number":12,"symbol":"Mg","name":"Magnesium","mass":24.305,"group":"Alkaline Earth","groupNumber":2,"period":3,"valence":2,"econfig":"[Ne] 3s2","protons":12,"neutrons":12},
+  {"number":13,"symbol":"Al","name":"Aluminium","mass":26.982,"group":"Post-transition Metal","groupNumber":13,"period":3,"valence":3,"econfig":"[Ne] 3s2 3p1","protons":13,"neutrons":14},
+  {"number":14,"symbol":"Si","name":"Silicon","mass":28.085,"group":"Metalloid","groupNumber":14,"period":3,"valence":4,"econfig":"[Ne] 3s2 3p2","protons":14,"neutrons":14},
+  {"number":15,"symbol":"P","name":"Phosphorus","mass":30.974,"group":"Nonmetal","groupNumber":15,"period":3,"valence":5,"econfig":"[Ne] 3s2 3p3","protons":15,"neutrons":16},
+  {"number":16,"symbol":"S","name":"Sulfur","mass":32.06,"group":"Nonmetal","groupNumber":16,"period":3,"valence":6,"econfig":"[Ne] 3s2 3p4","protons":16,"neutrons":16},
+  {"number":17,"symbol":"Cl","name":"Chlorine","mass":35.45,"group":"Halogen","groupNumber":17,"period":3,"valence":7,"econfig":"[Ne] 3s2 3p5","protons":17,"neutrons":18},
+  {"number":18,"symbol":"Ar","name":"Argon","mass":39.948,"group":"Noble Gas","groupNumber":18,"period":3,"valence":8,"econfig":"[Ne] 3s2 3p6","protons":18,"neutrons":22},
+  {"number":19,"symbol":"K","name":"Potassium","mass":39.098,"group":"Alkali Metal","groupNumber":1,"period":4,"valence":1,"econfig":"[Ar] 4s1","protons":19,"neutrons":20},
+  {"number":20,"symbol":"Ca","name":"Calcium","mass":40.078,"group":"Alkaline Earth","groupNumber":2,"period":4,"valence":2,"econfig":"[Ar] 4s2","protons":20,"neutrons":20}
+]

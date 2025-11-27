@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ultimate 3D Bohr Model Simulation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Import map to allow 'three' bare specifier resolution in examples modules -->
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.155.0/build/three.module.js",
+        "three/": "https://unpkg.com/three@0.155.0/"
+      }
+    }
+    </script>
+    <!-- small inline svg favicon to avoid 404 requests for /favicon.ico -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%237cc3ff'/%3E%3Ctext x='16' y='21' font-size='14' text-anchor='middle' fill='%23050a12'%3EBo%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="overlay">
+      <div id="periodic">
+        <div class="pt-header">Periodic Table</div>
+        <div id="pt-grid"></div>
+        <div id="pt-tooltip" class="pt-tooltip" style="display:none"></div>
+        <div id="pt-controls">
+          <button id="prev-elem">◀ Prev</button>
+          <input id="atomic-input" type="number" min="1" max="118" placeholder="Atomic #" />
+          <button id="load-btn">Load</button>
+          <button id="next-elem">Next ▶</button>
+          <button id="random-elem">Random</button>
+          <button id="back-btn">Back</button>
+        </div>
+      </div>
+
+      <div id="fact-panel" class="panel">
+        <h3 id="elem-name">Element</h3>
+        <div id="elem-info"></div>
+        <div id="isotope-controls"></div>
+        <div class="ion-controls">
+          <button id="remove-e">− Remove e⁻</button>
+          <button id="add-e">+ Add e⁻</button>
+        </div>
+      </div>
+
+      <div id="controls" class="panel">
+        <label>Speed <input id="speed" type="range" min="0" max="5" step="0.01" value="1"/></label>
+        <label><input id="toggle-shells" type="checkbox" checked/> Show shells</label>
+        <label><input id="toggle-trails" type="checkbox"/> Glow trails</label>
+        <label><input id="realistic-scale" type="checkbox"/> Realistic scale</label>
+        <label><input id="proportional-distance" type="checkbox"/> Proportional distances</label>
+        <div style="font-size:12px;margin-top:8px;opacity:0.85">Shortcuts: <kbd>◀</kbd> / <kbd>▶</kbd> or <kbd>n</kbd>/<kbd>p</kbd> Next/Prev, <kbd>r</kbd> Random</div>
+      </div>
+    </div>
+
+    <canvas id="c"></canvas>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
